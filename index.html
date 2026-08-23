@@ -597,7 +597,7 @@ const BICONS={
 };
 
 /* ============ STORAGE ============ */
-const KEY='alliance.v3',DAY=864e5;
+const KEY='alliance_newperson.v1',DAY=864e5;
 let mem=null;
 const DB={
   load(){try{const r=localStorage.getItem(KEY);return r?JSON.parse(r):mem}catch(e){return mem}},
